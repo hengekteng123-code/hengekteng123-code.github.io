@@ -3,7 +3,7 @@ html{
 }
 body{
     background-color:black;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .background {
     background-image:url("img.jpg");
@@ -58,27 +58,45 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-self: center;
+    
 }
 
 .Nav1 {
     border: none;
     background-color: transparent;
+    font-size: 30px;
 }
+.Nav1:hover{
+    opacity: 0.5;
+}
+
 .Nav2 {
     border: none;
     background-color: transparent;
+    font-size: 30px;
 }
 .Nav2:hover{
     opacity: 0.5;
 }
+
 .Nav3 {
     border: none;
     background-color: transparent;
+    font-size: 30px;
 }
+.Nav3:hover{
+    opacity: 0.5;
+}
+
 .Nav4 {
     border: none;
     background-color: transparent;
+    font-size: 30px;
 }
+.Nav4:hover{
+    opacity: 0.5;
+}
+
 .Nav a,
 .Nav button,
 .Nav1,
@@ -129,7 +147,7 @@ body{
 }
 .name3{
     color: white;
-    font-size: 34px;
+    font-size: 54px;
     
 }
 .buttons{
@@ -163,6 +181,7 @@ body{
 }
 
 .intersect{
+    margin-top: 85px;
     flex-wrap: wrap;
     width:100%;
     height: auto;
