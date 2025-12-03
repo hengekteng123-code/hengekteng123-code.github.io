@@ -26,7 +26,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top:150px;
+    padding-top:50px;
     flex-wrap: wrap;
     gap:150px;
     width:100%;
@@ -49,16 +49,30 @@ body{
 }
 .Nav{
     background-color: white;
-    border-radius: 30px;
+    border-radius: 80px;
     top:0;
     gap: 36px;
     width:fit-content;
     height: auto;
-    padding:14px;
-    display: flex;
-    flex-wrap: wrap;
+    padding:17px;
+    display:flex;
     justify-self: center;
-    
+}
+
+@media (max-width: 768px) {
+    .Nav {
+        gap: 20px;
+        padding: 12px;
+        border-radius: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Nav {
+        gap: 15px;
+        padding: 10px;
+        border-radius: 50px;
+    }
 }
 
 .Nav1 {
