@@ -8,12 +8,13 @@ body{
 .background {
     background-image:url("img.jpg");
     background-size: cover;
-    display: flex;
+    display:flex;
+    flex-wrap: warp;
     justify-content: center;
     align-items: center;
     top:0;
     left:0;
-    position:absolute;
+    position: fixed;
     width:calc(100%);
     height: calc(100%);
     background-repeat: no-repeat;
